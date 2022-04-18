@@ -127,6 +127,9 @@ section .title::after{
 .navbar.sticky .logo a span{
     color: #fff;
 }
+.navbar.sticky .menu-btn{
+    color: rgb(237, 249, 254);
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -158,6 +161,9 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
+}
+.menu-btn.sticky{
+    color: rgb(237, 249, 254);
 }
 .scroll-up-btn{
     position: fixed;
@@ -579,6 +585,9 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 999;
+    }
+    .menu-btn.sticky i.active:after{
+        color: rgb(237, 249, 254);
     }
     .menu-btn i.active:before{
         content: "\f00d";
