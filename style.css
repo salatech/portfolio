@@ -192,6 +192,7 @@ section .title::after{
 .home{
     display: flex;
     height: 100vh;
+   
     color: black;
     min-height: 500px;
     background-size: cover;
@@ -647,6 +648,14 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    .home .home-content .text-2,.text-1{
+     
+        display: none;
+        
+        }
+    .home {
+        padding-top:100px;
+    }
     .home{
         flex-direction: column;
     }
@@ -657,12 +666,7 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-    .home .home-content .text-2{
-        font-size: 60px;
-    }
-    .home .home-content .text-3{
-        font-size: 32px;
-    }
+
     .home .home-content a{
         font-size: 20px;
     }
@@ -672,12 +676,7 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
-    .home .home-content .text-2,.text-1{
-     
-    display: none;
     
-    }
-
     .home .home-content .text-3{
         font-size: 20px;
         line-height: 20px;
