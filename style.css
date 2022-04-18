@@ -687,6 +687,9 @@ footer span a:hover{
         font-size: 20px;
         line-height: 20px;
     }
+    .about{
+        padding-top: 0px;
+    }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
