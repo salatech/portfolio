@@ -1,10 +1,4 @@
-#top-img{
-    max-width: 100%;
-    height: auto;
-}
-#top-img img{
-    width: 633px;
-}
+
 body{
     background-color: rgb(237, 249, 254);
     width: 100vw;
@@ -140,16 +134,22 @@ section .title::after{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    padding: 10px 30px;
+    border: 2px solid rgb(0, 28, 85);
     transition: color 0.3s ease;
 }
 .navbar.sticky .logo a{
     color: rgb(237, 249, 254);
 }
 .navbar .menu li a:hover{
-    color:rgb(0, 28, 85) ;
+    color:rgb(0, 28, 85);
+    font-weight: 600;
+    font-size: 20px;
+    
 }
 .navbar.sticky .menu li a{
     color: rgb(237, 249, 254);
+    border: 2px solid rgb(237, 249, 254);
 }
 .navbar.sticky .menu li a:hover{
     color: white;
@@ -291,15 +291,14 @@ section .title::after{
     color: rgb(0, 28, 85);
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 5px 15px;
     margin-top: 20px;
-    border-radius: 5px;
     border: 1px solid rgb(0, 28, 85);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
     color: rgb(237, 249, 254);
-    background: rgb(0, 28, 85);
+    background: rgb(112, 151, 230);
 }
 
 /* services section styling */
@@ -319,34 +318,14 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: transparent;
+    border: 2px solid rgb(237, 249, 254);
+    height: 300px;
+    margin-top: 20px;
     text-align: center;
-    border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-.services .serv-content .card:hover{
-    background: crimson;
-}
-.services .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card i{
-    font-size: 50px;
-    color: crimson;
-    transition: color 0.3s ease;
-}
-.services .serv-content .card:hover i{
-    color: #fff;
-}
-.services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
 }
 
 /* skills section styling */
@@ -392,7 +371,7 @@ ul.skills-list li::before {
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "woek experiences";
 }
 .teams .carousel .card{
     background: #222;
@@ -454,8 +433,14 @@ ul.skills-list li::before {
 }
 
 /* contact section styling */
+.contact .title{
+    color:rgb(0, 28, 85);
+}
 .contact .title::after{
     content: "get in touch";
+    color: rgb(0, 28, 85);
+    background-color: rgb(237, 249, 254);
+    font-weight: 400;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -467,6 +452,7 @@ ul.skills-list li::before {
 }
 .contact .contact-content .left p{
     text-align: justify;
+    color: rgb(115, 135, 177);
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -481,13 +467,14 @@ ul.skills-list li::before {
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(0, 28, 85);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: rgb(115, 135, 177);
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color:rgb(115, 135, 177);
 }
 .contact .right form .fields{
     display: flex;
@@ -509,17 +496,13 @@ ul.skills-list li::before {
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
+    background-color: rgb(237, 249, 254);
+    border: 1px solid rgb(0, 28, 85);
     outline: none;
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -530,38 +513,39 @@ ul.skills-list li::before {
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: rgb(0, 28, 85);
   display: block;
   width: 160px!important;
   height: 45px;
   outline: none;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background:transparent;
+  border: 2px solid rgb(0, 28, 85);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
-  background: none;
+  color: rgb(237, 249, 254);
+  background: rgb(0, 28, 85);
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background:rgb(0, 28, 85);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    
+}
+footer span{
+    font-weight: 600;
 }
 footer span a{
-    color: crimson;
+    color: rgb(237, 249, 254);
     text-decoration: none;
 }
-footer span a:hover{
-    text-decoration: underline;
-}
+
 
 
 /* responsive media query start */
