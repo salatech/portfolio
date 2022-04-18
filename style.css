@@ -371,7 +371,7 @@ ul.skills-list li::before {
 
 /* teams section styling */
 .teams .title::after{
-    content: "woek experiences";
+    content: "Experiences";
 }
 .teams .carousel .card{
     background: #222;
