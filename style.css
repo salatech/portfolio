@@ -672,6 +672,9 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .home{
+        height: 0;
+    }
     .home .home-content{
         display: none;
     }
