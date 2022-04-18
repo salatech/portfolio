@@ -99,7 +99,7 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
@@ -121,7 +121,7 @@ section .title::after{
     
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(0, 28, 85);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -192,7 +192,6 @@ section .title::after{
 .home{
     display: flex;
     height: 100vh;
-   
     color: black;
     min-height: 500px;
     background-size: cover;
@@ -218,7 +217,7 @@ section .title::after{
     margin-left: -3px;
     color: rgb(0, 28, 85);
 }
-.home .home-content .text-3{
+ .text-3{
     font-size: 30px;
     margin: 5px 0;
     font-weight: 600;
@@ -648,14 +647,6 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
-    .home .home-content .text-2,.text-1{
-     
-        display: none;
-        
-        }
-    .home {
-        padding-top:100px;
-    }
     .home{
         flex-direction: column;
     }
@@ -666,7 +657,12 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
     .home .home-content a{
         font-size: 20px;
     }
@@ -676,7 +672,11 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .home .home-content .text-2{
+     font-size: 25px;
+    margin-top: 0;
     
+    }
     .home .home-content .text-3{
         font-size: 20px;
         line-height: 20px;
