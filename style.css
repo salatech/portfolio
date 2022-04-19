@@ -324,13 +324,13 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card h2{
-    color: rgb(0, 22, 65);
+    color:  rgb(112, 151, 230);
     font-size: 30px;
     margin-top: 5px;
 }
 .services .serv-content .card #img{
     margin-top: 5px;
-    width: 150px;
+    width: 250px;
     height: 150px;
 }
 .services .serv-content .card button{
