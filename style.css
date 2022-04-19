@@ -318,7 +318,7 @@ section .title::after{
     height: 300px;
     margin-top: 20px;
     text-align: center;
-    color: rgb(0, 22, 65);
+    color:  rgb(112, 151, 230);
     cursor: pointer;
     
     transition: all 0.3s ease;
@@ -355,7 +355,7 @@ section .title::after{
 #btnl{
     margin-top: 10px;
     outline: none;
-    color: rgb(0, 28, 85);
+    color:  rgb(112, 151, 230);
     text-decoration: none;
     width: 80px;
     height: 100%;
