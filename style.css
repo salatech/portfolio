@@ -325,7 +325,7 @@ section .title::after{
 }
 .services .serv-content .card h2{
     color:  rgb(112, 151, 230);
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 5px;
 }
 .services .serv-content .card #img{
@@ -337,12 +337,15 @@ section .title::after{
     outline: none;
     border: none;
 }
+.card p{
+font-size: 15px;
+}
 #tech{
-    font-weight: 600;
+    font-weight:bold;
     color: rgb(112, 151, 230);
 }
 .services .serv-content .card button img{
-    width: 30px;
+    width: 20px;
     
 }
 .services .serv-content .card>div{
