@@ -435,6 +435,21 @@ ul.skills-list li::before {
     overflow: hidden;
     transition: all 0.3s ease;
 }
+.cv{
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+   
+}
+ .cvlink{
+text-align: center;
+ }
+ .cvlink p{
+    margin-top: -10px;
+    padding-bottom: 5px;
+ }
 .teams .carousel .card:hover{
     background: crimson;
 }
