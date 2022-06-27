@@ -23,10 +23,11 @@ $(document).ready(function(){
     });
 
     $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
+        // applying again smooth scroll on menu 1items click
         $('html').css("scrollBehavior", "smooth");
     });
-
+1
+4
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
