@@ -335,6 +335,7 @@ section .title::after{
     margin-top: 5px;
     width: 250px;
     height: 150px;
+
 }
 .services .serv-content .card button{
     outline: none;
